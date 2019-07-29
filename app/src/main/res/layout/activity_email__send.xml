@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Email_Send"
+    android:background="@drawable/bgrate3">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@drawable/bgrate">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Mailing Affence"
+            android:textColor="#ffff"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:layout_marginTop="50dp"/>
+    </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="150dp"
+            android:layout_marginRight="30dp"
+            android:orientation="vertical"
+            android:id="@+id/liner1"
+            android:background="@drawable/bgrate2">
+
+            <EditText
+                android:layout_marginTop="10dp"
+                android:hint="Email"
+                android:backgroundTint="#1976D2"
+                android:textColor="#1976D2"
+                android:inputType="textEmailAddress"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:id="@+id/emailid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:hint="Subject"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="#1976D2"
+                android:textColor="#1976D2"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:id="@+id/sub"
+                android:text="Traffic Rules Violation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:layout_marginTop="10dp"
+                android:backgroundTint="#1976D2"
+                android:textColor="#1976D2"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:id="@+id/body"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|left"
+                android:lines="4"
+                android:hint="Body"
+                android:gravity="left|top"
+                android:layout_marginBottom="10dp"/>
+
+        </LinearLayout>
+    <Button
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/forgotbtn"
+        android:id="@+id/send"
+        android:text="send"
+        android:textColor="#ffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/liner1"
+        android:layout_marginTop="35dp"
+        android:layout_centerHorizontal="true" />
+    </RelativeLayout>

@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "304787388521",
+    "firebase_url": "https://penaliz-4ff3f.firebaseio.com",
+    "project_id": "penaliz-4ff3f",
+    "storage_bucket": "penaliz-4ff3f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:304787388521:android:83c71e1d4cd680de",
+        "android_client_info": {
+          "package_name": "com.example.penaliz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "304787388521-9cll62ogjekbpbm67lfg4duint14vkam.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.penaliz",
+            "certificate_hash": "305e017aba01b7515a014b54c8c0602ac6477478"
+          }
+        },
+        {
+          "client_id": "304787388521-mm1omd2fe4rkoun4789qd7mhv9a4mrv5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.penaliz",
+            "certificate_hash": "b0fefc053e472c2b018cdd3a41168d86efd09bc3"
+          }
+        },
+        {
+          "client_id": "304787388521-malps2b7rb11num5bo93975pknfsihi1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHJFRaRzPOdm6w6Ef6LE4_Qo4ODO8o2is"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "304787388521-malps2b7rb11num5bo93975pknfsihi1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

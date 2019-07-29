@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#263238"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textSize="15sp"
+        android:textColor="#607d8b"
+        android:layout_marginTop="250dp"
+        android:id="@+id/username"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:outlineAmbientShadowColor="#607d8b"
+        android:shadowColor="#607d8b"
+        android:textColorLink="#607d8b"
+        android:outlineSpotShadowColor="#607d8b"
+        android:layout_below="@id/username"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:id="@+id/email_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:textColor="#607d8b"
+        android:textColorHighlight="#607d8b"
+        android:backgroundTint="#607d8b"
+        android:textCursorDrawable="@null" />
+    <TextView
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvpassword"
+        android:text="Password"
+        android:textSize="15sp"
+        android:layout_below="@id/email_id"
+        android:layout_marginTop="20dp"
+        android:textColor="#607d8b"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:outlineAmbientShadowColor="#607d8b"
+        android:shadowColor="#607d8b"
+        android:textColorLink="#607d8b"
+        android:outlineSpotShadowColor="#607d8b"
+        android:textColor="#607d8b"
+        android:textColorHighlight="#607d8b"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberPassword"
+        android:layout_below="@id/tvpassword"
+        android:backgroundTint="#607d8b"
+        android:textCursorDrawable="@null"/>
+    <Button
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/signup"
+        android:layout_marginTop="30dp"
+        android:text="login"
+        android:id="@+id/login"
+        android:backgroundTint="@color/green"
+        android:background="@drawable/mybutton"
+        />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible"
+        android:layout_centerVertical="true"
+        android:layout_height="wrap_content" />
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/password"
+    android:textColor="#607d8b"
+    android:text="New User?"
+    android:textSize="15sp"
+    android:layout_marginTop="35dp"
+    android:layout_marginLeft="85dp"/>
+    <TextView
+        android:textSize="20sp"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/password"
+        android:text="Sign up"
+        android:layout_centerHorizontal="true"
+        android:layout_marginRight="20dp"
+        android:id="@+id/signup"
+        android:textColor="@color/green"/>
+    <TextView
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:backgroundTint="@color/green"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_marginRight="45dp"
+        android:layout_height="wrap_content"
+        android:text="Forgot Password?"
+        android:layout_below="@id/login"
+        android:textColor="#607d8b"
+        android:id="@+id/forgot"/>
+
+</RelativeLayout>
